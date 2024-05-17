@@ -3,9 +3,9 @@ package com.jdbc;
 import java.sql.*;
 import java.util.*;
 import javax.sql.*;
+import javax.naming.*;
 
 import org.apache.catalina.webresources.Cache;
-import javax.naming.*;
 
 public class DBCPTempMember {
 	DataSource ds;
