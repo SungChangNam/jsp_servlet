@@ -5,3 +5,4 @@
 <jsp:forward page="/temp/template/template.jsp">
  		<jsp:param value="info_View.jsp" name="CONTENTPAGE"/>
 </jsp:forward>
+
