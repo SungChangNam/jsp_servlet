@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약 확인</title>
+    <link rel="stylesheet" href="/real/css/booking-details.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="main.html">curumaster</a>
+            </div>
+            <ul class="menu center-menu">
+                <li class="menu-item">
+                    <a href="main.html">홈</a>
+                    <ul class="submenu">
+                        <li><a href="history.html">회사연혁</a></li>
+                        <li><a href="business.html">사업소개</a></li>
+                        <li><a href="directions.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="car-info.html">차량 정보</a>
+                    <ul class="submenu">
+                        <li><a href="car-info.html">차량 정보</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="reviews.html">리뷰</a>
+                </li>
+                <li class="menu-item">
+                    <a href="mypage.html">마이페이지</a>
+                    <ul class="submenu">
+                        <li><a href="booking-details.html" onclick="checkLogin('예약확인.html')">예약확인</a></li>
+                        <li><a href="mypage.html" onclick="checkLogin('마이페이지.html')">마이페이지</a></li>
+                        <li><a href="mypage.html" onclick="checkLogin('정보수정.html')">정보수정</a></li>
+                        <li><a href="withdrawal.html" onclick="checkLogin('회원탈퇴.html')">회원탈퇴</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#">고객지원</a>
+                    <ul class="submenu">
+                        <li><a href="notice.html">공지사항</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="guide.html">이용수칙</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="menu right-menu">
+                <li class="menu-item"><a href="login.html">로그인</a></li>
+                <li class="menu-item"><a href="register.html">회원가입</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="reservation-detail-section">
+        <div class="content-container">
+            <h1 class="subtitle">예약 확인</h1>
+
+            <section class="reservation-overview">
+                <h2>예약 정보 개요</h2>
+                <p>예약 번호: 123456</p>
+                <p>예약 상태: 확정</p>
+                <p>예약 날짜: 2023-12-01</p>
+            </section>
+
+            <section class="customer-info">
+                <h2>고객 정보</h2>
+                <p>이름: 홍길동</p>
+                <p>이메일: hong@example.com</p>
+                <p>전화번호: 010-1234-5678</p>
+            </section>
+
+            <section class="car-info">
+                <h2>차량 정보</h2>
+                <p>차량 종류: 세단</p>
+                <p>모델: 2023 Hyundai Sonata</p>
+                <p>차량 번호판: 12가 3456</p>
+                <p>연료 종류: 가솔린</p>
+            </section>
+
+            <section class="rental-info">
+                <h2>대여 정보</h2>
+                <p>대여 시작 날짜: 2024-06-10 10:00</p>
+                <p>대여 종료 날짜: 2024-06-20 10:00</p>
+                <p>픽업 지점: 서울 영등포점</p>
+                <p>반납 지점: 부산 해운대점</p>
+                <p>대여 기간: 10일</p>
+            </section>
+
+            <section class="payment-info">
+                <h2>결제 정보</h2>
+                <p>결제 금액: 500,000원</p>
+                <p>결제 상태: 완료</p>
+                <p>결제 방법: 신용카드</p>
+            </section>
+       
+                 <a href="cancell.html" class="cancel-button">예약 취소</a>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="company-info">
+                <h2>CURUMASTER</h2>
+                <p>국내 가장 믿고 맡길 수 있는 서비스 제공 및 비용 절감</p>
+                <p>현지화 해외에서도 현지 만큼 안심</p>
+                <p>빠른 예약처리와 편리한 이용 여행 만족도를 한층 높여드립니다</p>
+                <p>간편한 보험 및 계약 갱신 지원</p>
+            </div>
+            <div class="office-info">
+                <h3>회사 정보</h3>
+                <p>본사 주소: 서울특별시 영등포구 양평로123번지 32 센트럴 빌딩 4층 홍길동</p>
+                <p>Other Office Locations</p>
+                <p>Email: zeushacker@gmail.com</p>
+                <p>Phone: 010-1234-5678</p>
+            </div>
+            <div class="office-hours">
+                <h3>영업 시간</h3>
+                <p>Sunday: 10:00 - 17:00</p>
+                <p>Monday: 10:00 - 17:00</p>
+                <p>Tuesday: 10:00 - 17:00</p>
+                <p>Wednesday: 10:00 - 17:00</p>
+                <p>Thursday: 10:00 - 17:00</p>
+                <p>Friday: 10:00 - 17:00</p>
+                <p>Saturday: 10:00 - 17:00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

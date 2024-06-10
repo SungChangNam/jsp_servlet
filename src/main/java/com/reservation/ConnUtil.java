@@ -1,4 +1,4 @@
-package com.boardone;
+package com.reservation;
 
 import java.sql.*;
 import javax.sql.*;
@@ -27,6 +27,3 @@ public class ConnUtil {
 		}
 		
 }
-
-
-

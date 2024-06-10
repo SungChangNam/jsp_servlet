@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약 가능 시기</title>
+    <link rel="stylesheet" href="/real/css/faq-reservation.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="main.html">curumaster</a>
+            </div>
+            <ul class="menu center-menu">
+                <li class="menu-item">
+                    <a href="main.html">홈</a>
+                    <ul class="submenu">
+                        <li><a href="history.html">회사연혁</a></li>
+                        <li><a href="business.html">사업소개</a></li>
+                        <li><a href="directions.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="car-info.html">차량 정보</a>
+                    <ul class="submenu">
+                        <li><a href="car-info.html">차량 정보</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="reviews.html">리뷰</a>
+                </li>
+                <li class="menu-item">
+                    <a href="mypage.html">마이페이지</a>
+                    <ul class="submenu">
+                        <li><a href="booking-details.html" onclick="checkLogin('예약확인.html')">예약확인</a></li>
+                        <li><a href="mypage.html" onclick="checkLogin('마이페이지.html')">마이페이지</a></li>
+                        <li><a href="mypage.html" onclick="checkLogin('정보수정.html')">정보수정</a></li>
+                        <li><a href="withdrawal.html" onclick="checkLogin('회원탈퇴.html')">회원탈퇴</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#">고객지원</a>
+                    <ul class="submenu">
+                        <li><a href="notice.html">공지사항</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="guide.html">이용수칙</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="menu right-menu">
+                <li class="menu-item"><a href="login.html">로그인</a></li>
+                <li class="menu-item"><a href="register.html">회원가입</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="faq-detail-section">
+        <div class="content-container">
+            <h1 class="subtitle">Q: 예약은 언제부터 가능한가요?</h1>
+            <p>A: 렌트카 회사별로 다릅니다. 가장 빠른 경우 출발일로부터 8개월 전부터 예약이 가능하므로 검색 페이지에서 확인하여 주시기 바랍니다.</p>
+            <button class="back-button" onclick="location.href='faq.html'">앞으로 돌아가기</button>
+            <button class="reserve-button" onclick="location.href='main.html'">예약하러 가기</button>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="company-info">
+                <h2>CURUMASTER</h2>
+                <p>국내 가장 믿고 맡길 수 있는 서비스 제공 및 비용 절감</p>
+                <p>현지화 해외에서도 현지 만큼 안심</p>
+                <p>빠른 예약처리와 편리한 이용 여행 만족도를 한층 높여드립니다</p>
+                <p>간편한 보험 및 계약 갱신 지원</p>
+            </div>
+            <div class="office-info">
+                <h3>회사 정보</h3>
+                <p>본사 주소: 서울특별시 영등포구 양평로123번지 32 센트럴 빌딩 4층 홍길동</p>
+                <p>Other Office Locations</p>
+                <p>Email: zeushacker@gmail.com</p>
+                <p>Phone: 010-1234-5678</p>
+            </div>
+            <div class="office-hours">
+                <h3>영업 시간</h3>
+                <p>Sunday: 10:00 - 17:00</p>
+                <p>Monday: 10:00 - 17:00</p>
+                <p>Tuesday: 10:00 - 17:00</p>
+                <p>Wednesday: 10:00 - 17:00</p>
+                <p>Thursday: 10:00 - 17:00</p>
+                <p>Friday: 10:00 - 17:00</p>
+                <p>Saturday: 10:00 - 17:00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
