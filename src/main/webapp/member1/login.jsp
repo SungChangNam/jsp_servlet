@@ -2,11 +2,9 @@
     pageEncoding="UTF-8"%>
  <%
  String loginId =(String)session.getAttribute("loginId");
- 
+
  %>  
    
-    
-    
 <!DOCTYPE html>
 <html>
 <head>
