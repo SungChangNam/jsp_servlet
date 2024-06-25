@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"  http-equiv="refresh" content="3;url=login.jsp">
+<meta charset="UTF-8"  http-equiv="refresh" content="3;url=loginTest.jsp">
 <title>회원탈퇴</title>
 </head>
 <%

@@ -25,7 +25,7 @@
 <%
 	if(flag){
 		out.println("<br>축하<b></br>");
-		out.println("<a  href=login.jsp> login</a>");
+		out.println("<a  href=loginTest.jsp> login</a>");
 	}else{
 		out.println("<b>다시작");
 		out.println("<a  href=regFrom.jsp> 다시작성</a>");
